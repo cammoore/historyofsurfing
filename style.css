@@ -1,0 +1,95 @@
+body {
+  font-family: 'Average Sans', sans-serif;
+  background-image: url('113488-Sunset-Surfing.jpg');
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire */
+  color: aquamarine;
+}
+
+h1, h2 {
+  font-family: 'Shadows Into Light', sans-serif;
+  color: yellow;
+}
+
+p {
+  margin: 5px 25px;
+}
+
+.profiles {
+  margin: auto;
+}
+
+.profile {
+  display: table;
+  width: 200px;
+  height: 175px;
+  float: left;
+  margin: 20px 50px;
+}
+.imageWithCaption {
+  text-align: center;
+}
+
+.caption {
+  display: table-cell;
+  vertical-align: center;
+  width: 200px;
+  height: 175px;
+  float: left;
+  text-align: center;
+}
+
+.parent {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.child {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+/* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+/* Top right text */
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+/* Bottom right text */
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
