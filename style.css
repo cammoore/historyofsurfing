@@ -17,14 +17,14 @@ p {
 }
 
 .profiles {
-  padding-left: 160px;
+  padding-left: 140px;
 }
 
 div.image.profile {
   width: 200px;
   height: 200px;
   float: left;
-  margin: 20px 50px;
+  margin: 20px 25px;
 }
 
 div.image.profile img {
@@ -38,7 +38,7 @@ div.image.profile img {
 }
 .centered {
   position: absolute;
-  top: 75%;
+  top: 65%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
