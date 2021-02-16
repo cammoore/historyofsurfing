@@ -1,5 +1,5 @@
 body {
-  font-family: 'Average Sans', sans-serif;
+  font-family: 'Fjalla One', sans-serif;
   background-image: url('113488-Sunset-Surfing.jpg');
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
@@ -17,7 +17,7 @@ p {
 }
 
 .profiles {
-  padding-left: 140px;
+  padding-left: 17%;
 }
 
 div.image.profile {
