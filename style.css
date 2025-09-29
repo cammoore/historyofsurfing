@@ -1,10 +1,11 @@
 body {
   font-family: 'Fjalla One', sans-serif;
   background-image: url('113488-Sunset-Surfing.jpg');
-  background-position: center; /* Center the image */
+  background-position: center center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire */
   color: aquamarine;
+  height: 100vh;
 }
 
 h1, h2 {
@@ -32,11 +33,7 @@ div.image.profile img {
   width: 200px;
   height: 200px;
 }
-/* Container holding the image and the text */
-.container {
-  position: relative;
-  text-align: center;
-}
+
 .centered {
   position: absolute;
   top: 65%;
@@ -48,10 +45,4 @@ div.image.profile img {
   position:relative;
   text-align:center;
   float: left;
-}
-.text {
-  left: 0;
-  position:absolute;
-  top: 175px;
-  width: 100%;
 }
